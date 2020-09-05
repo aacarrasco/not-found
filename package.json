@@ -1,0 +1,25 @@
+{
+  "name": "not-found",
+  "version": "1.0.0",
+  "description": "devchallenges.io 404 not found",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aacarrasco/not-found.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "responsive design",
+    "web"
+  ],
+  "author": "Angelica Grace A. Carrasco <angiccarrasco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aacarrasco/not-found/issues"
+  },
+  "homepage": "https://github.com/aacarrasco/not-found#readme"
+}
