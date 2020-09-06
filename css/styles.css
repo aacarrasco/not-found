@@ -32,6 +32,8 @@ body {
 
 .card {
   display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .card__image {
@@ -63,7 +65,7 @@ body {
 
 .card__content > p {
   /* The page you are looking for might be removed or is temporarily unavailable */
-  width: 59%;
+  width: 60%;
   font-family: Space Mono;
   font-style: normal;
   font-weight: normal;
@@ -78,6 +80,8 @@ body {
   /* Back to homepage */
   width: 216px;
   height: 68px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   background: var(--gray-1);
 
   font-family: Space Mono;
@@ -104,4 +108,55 @@ body {
   /* identical to box height */
 
   color: var(--gray-1);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+  }
+
+  .heading > h5 {
+    margin-top: 2px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card__image {
+    width: 100%;
+  }
+
+  .card__image > img {
+    display: block;
+    width: 100%;
+  }
+
+  .card__content {
+    width: 100%;
+  }
+
+  .card__content > h3 {
+    /* I have bad news for you */
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--gray-1);
+  }
+
+  .card__content > p {
+    /* The page you are looking for might be removed or is temporarily unavailable */
+    width: 100%;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+
+    color: var(--gray-2);
+  }
 }
