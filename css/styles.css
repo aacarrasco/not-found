@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-1: #333333;
+  --gray-2: #4F4F4F;
+}
+
+body {
+  padding-top: 40px;
+  padding-left: 77px;
+  padding-right: 119px;
+  padding-bottom: 39px;
+}
+
+.heading > h5 {
+  display: block;
+
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: var(--gray-1);
+}
+
+.card {
+  display: flex;
+}
+
+.card__image {
+  width: 50%;
+}
+
+.card__image > img {
+  display: block;
+  width: 80%;
+}
+
+.card__content {
+  width: 50%;
+}
+
+.card__content > h3 {
+  /* I have bad news for you */
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: var(--gray-1);
+}
+
+.card__content > p {
+  /* The page you are looking for might be removed or is temporarily unavailable */
+  width: 59%;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  color: var(--gray-2);
+}
+
+.card__content > button {
+  /* Back to homepage */
+  width: 216px;
+  height: 68px;
+  background: var(--gray-1);
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.footer {
+  /* angiccarrasco@DevChallenges.io */
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: var(--gray-1);
+}
